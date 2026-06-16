@@ -44,10 +44,3 @@ Using PowerShell with administrative privileges, I monitored the live security l
 
 ```powershell
 Get-Content -Path "C:\Windows\System32\LogFiles\Firewall\pfirewall.log" -Wait | Select-String "DROP"
-![Baseline verification](images/1-baseline-rdp.png)
-
-![Custom rule setup](images/2-firewall-rule.png)
-
-![Connection failure screen](images/3-failed-connection.png)
-
-![PowerShell logs](images/4-powershell-logs.png)

@@ -44,16 +44,3 @@ Using PowerShell with administrative privileges, I monitored the live security l
 
 ```powershell
 Get-Content -Path "C:\Windows\System32\LogFiles\Firewall\pfirewall.log" -Wait | Select-String "DROP"
-![Baseline verification](https://raw.githubusercontent.com/wendelltwumasi/Windows-Firewall-Hardening-SOC-Lab/main/images/1-baseline-rdp.png)
-
-
-
-![Custom rule setup](https://raw.githubusercontent.com/wendelltwumasi/Windows-Firewall-Hardening-SOC-Lab/main/images/2-firewall-rule.png)
-
-
-
-![Connection failure](https://raw.githubusercontent.com/wendelltwumasi/Windows-Firewall-Hardening-SOC-Lab/main/images/3-failed-connection.png)
-
-
-
-![PowerShell logs](https://raw.githubusercontent.com/wendelltwumasi/Windows-Firewall-Hardening-SOC-Lab/main/images/4-powershell-logs.png)
